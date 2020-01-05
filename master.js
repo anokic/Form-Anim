@@ -1,5 +1,5 @@
 window.onload = function () {
-  $('.info-container').width($('.div-form').width());
+  
 
   $('.btn-change').click(function(){
 
