@@ -39,7 +39,7 @@ main {
   height: 100%;
   flex-direction: column;
   overflow: hidden;
-  transition: left 1s ease-in-out;
+  transition: left 1s ease-in-out, background 1s ease-in-out;
 }
 
 /* .traveler {
@@ -81,7 +81,33 @@ main {
 
 .info-anim {
   left: 63%!important;
+  background-position-x: 0px;
   animation: sizeToggle 1.1s;
+}
+
+.socials {
+  margin-bottom: 25px;
+}
+
+.form span {
+  display: block;
+  font-size: 11px;
+  color: #A5A9A8;
+  letter-spacing: .5px;
+  margin-bottom: 15px;
+}
+
+a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #1D2120;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #E7EBEA;
+  border-radius: 50%;
+  margin: 0 1px;
 }
 
 .size {
@@ -206,6 +232,19 @@ button {
   transition: all .3s ease;
 }
 
+.form .sign button {
+  margin-top: 20px;
+}
+
+.form .sign h5 {
+  margin-top: 10px;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(32, 133, 103, .5);
+  padding-bottom: 5px;
+  color: #373A3A;
+  cursor: pointer;
+}
+
 .form div button:hover {
   color: #208567;
   background: #fff;
@@ -268,7 +307,7 @@ button {
 }
 
 .form div h3 {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 
 .btn-change {
