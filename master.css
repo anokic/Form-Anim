@@ -322,7 +322,7 @@ button {
 input {
   width: 280px;
   height: 40px;
-  border: none;
+  border: 1px solid #F4F7F8;
   background: #F4F7F8;
   padding-left: 20px;
   margin-bottom: 8px;

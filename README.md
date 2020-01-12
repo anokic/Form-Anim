@@ -4,6 +4,8 @@
 
 Trying out new sign in / sign up animation that I was inspired to do when I saw it on dribbble.
 
+Added regular expression to verify the sent values.
+
 Only desktop version or to be precise works for devices above 720px width.
 
 Design : https://dribbble.com/shots/5311359-Diprella-Login

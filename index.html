@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Log in / sign in</title>
-  <script src="https://kit.fontawesome.com/82b8242d43.js" data-search-pseudo-elements crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/82b8242d43.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="master.css">
   <script
@@ -33,10 +33,10 @@
           </div>
           <span>or use your email account:</span>
           <form class="" action="index.html" method="post">
-            <input type="text" placeholder="Email"></input>
-            <input type="password" placeholder="Password"></input>
+            <input class='email-login' type="text" placeholder="Email"></input>
+            <input class='password-login' type="password" placeholder="Password"></input>
             <h5>Forgot your password?</h5>
-            <button type="button" name="button">SIGN IN</button>
+            <button class='btn-submit' type="button" name="button">SIGN IN</button>
           </form>
         </div>
         <div class="create">
@@ -54,10 +54,10 @@
           </div>
           <span>or use your email for registration:</span>
           <form class="" action="index.html" method="post">
-            <input type="text" placeholder="Name">
-            <input type="text" placeholder="Email">
-            <input type="password" placeholder="Password">
-            <button type="button" name="button">SIGN UP</button>
+            <input class='name-register' type="text" placeholder="Name">
+            <input class='email-register' type="text" placeholder="Email">
+            <input class='pass-register' type="password" placeholder="Password">
+            <button class='btn-create' type="button" name="button">SIGN UP</button>
           </form>
         </div>
       </section>
